@@ -67,3 +67,37 @@ button{
 button:hover{
     background: #455FC2;
 }
+
+.contenedor{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1{
+    background-image: url(1.png);
+}
+
+.img2{
+    background-image: url(2.png);
+}
+
+.img3{
+    background-image: url(3.png);
+}
+
+.item{
+    width: 30%;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    margin: 0 10px;
+    transition: .3s;
+    position: relative;
+    border-radius: 20px;
+}
+
+.item:hover{
+    width: 70%;
+}
