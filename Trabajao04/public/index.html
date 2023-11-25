@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Node js</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 id = "texto"></h1>
+
+    <script>
+        var i = 0;
+        var txt = 'Conocer JavaScript y NodeJS';
+        var speed = 150;
+
+        function typeWrite(){
+            if(i < txt.length){
+                document.getElementById('texto').innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWrite, speed);
+            }
+        }
+
+        typeWrite()
+    </script>
+
+    <form action="">
+    <h2>Iniciar Sesión</h2>
+        <div class="contenedor-input">
+            <input type="text" class="input-texto" required>
+            <span class="label-flotante">Dirección de Correo</span>
+        </div>
+
+        <div class="contenedor-input">
+            <input type="password" class="input-texto" required>
+            <span class="label-flotante">Contraseña</span>
+        </div>
+        <button>lniciar Sesión</button>
+    </form>
+
+</body>
+</html>
