@@ -1,1 +1,1 @@
-<span>![</span><span>Aquí la descripción de la imagen por si no carga</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/stevenb55/Programacion-para-internet/main/Capturas/captura1.png</span><span>)</span>
+
